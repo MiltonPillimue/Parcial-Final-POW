@@ -1,0 +1,32 @@
+h1, h2{
+    color: #000000;
+    font-weight: bold;
+}
+
+img{
+    border-radius: 15px;
+    transition: .3s;
+}
+
+img:hover{
+    transform: scale(1.03);
+}
+
+.btn-primary{
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.btn-primary:hover{
+    transform: translateY(-3px);
+}
+
+.btn-success{
+    border-radius: 30px;
+}
+
+.modal-content{
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.3);
+}
